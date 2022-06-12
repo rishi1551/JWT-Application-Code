@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "280b7125-1c9b-43e2-b6a6-81336fa81d3f",
+		"name": "Book Bidind Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Book Post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:61866/api/book"
+			},
+			"response": []
+		},
+		{
+			"name": "Book Put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:61866/api/book"
+			},
+			"response": []
+		},
+		{
+			"name": "Book Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:61866/api/book"
+			},
+			"response": []
+		},
+		{
+			"name": "Book Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:61866/api/book/5"
+			},
+			"response": []
+		},
+		{
+			"name": "Book Bid Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"BidID\":1,\r\n    \"BookName\":\"The Guide\",\r\n    \"UserName\":\"Hrishi Vedpathak\",\r\n    \"BidAmount\":600\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:61866/api/Bid"
+			},
+			"response": []
+		},
+		{
+			"name": "Book Bid Put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:61866/api/Bid"
+			},
+			"response": []
+		},
+		{
+			"name": "Book Bid Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:61866/api/Bid"
+			},
+			"response": []
+		},
+		{
+			"name": "Book Sold Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"SaleId\":1,\r\n    \"BookName\":\"The Guide\",\r\n    \"UserName\":\"Hrishikesh Vedpathak\",\r\n    \"BookPrice\":540,\r\n    \"SalePrice\":600\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:61866/api/Sold"
+			},
+			"response": []
+		},
+		{
+			"name": "Book Sold Get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:61866/api/Sold"
+			},
+			"response": []
+		},
+		{
+			"name": "Book Sold Put",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:61866/api/Sold"
+			},
+			"response": []
+		}
+	]
+}

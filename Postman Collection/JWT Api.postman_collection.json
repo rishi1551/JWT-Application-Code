@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "27d2123f-0152-438a-a2ec-0c14768b0ce2",
+		"name": "JWT Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "JWT Authenticate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "https://localhost:44338/api/users/authenticate"
+			},
+			"response": []
+		},
+		{
+			"name": "JWT UserList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:44338/api/users/userlist"
+			},
+			"response": []
+		}
+	]
+}
